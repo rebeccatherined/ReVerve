@@ -4,10 +4,10 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- main
+- master
 
 pool:
-  vmImage: agentpool1
+  name: agentpool1
 
 steps:
 - task: Maven@4
